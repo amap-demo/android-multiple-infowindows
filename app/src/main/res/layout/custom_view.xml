@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_info_bubble"
+            android:text="望京公园"
+            android:ellipsize="end"
+            android:textColor="#ff7f7f7f"
+            android:gravity="center_horizontal"
+            android:textSize="12dp" />
+
+</LinearLayout>
