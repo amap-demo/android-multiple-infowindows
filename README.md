@@ -11,7 +11,7 @@
 ![Screenshot]( https://github.com/amap-demo/android-multiple-infowindows/raw/master/apk/picture.png )
 
 ## 扫一扫安装##
-![Screenshot]( https://github.com/amap-demo/android-multiple-infowindows/raw/master/apk/picture.png )
+![Screenshot]( https://github.com/amap-demo/android-multiple-infowindows/raw/master/apk/1479350416.png )
 
 ## 使用方法##
 ###1:配置搭建AndroidSDK工程###
