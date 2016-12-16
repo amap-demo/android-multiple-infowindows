@@ -2,7 +2,6 @@ package amap.android_multiple_infowindows;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -13,15 +12,14 @@ import com.amap.api.maps.MapView;
 import com.amap.api.maps.model.BitmapDescriptor;
 import com.amap.api.maps.model.BitmapDescriptorFactory;
 import com.amap.api.maps.model.LatLng;
-import com.amap.api.maps.model.MarkerOptions;
-import com.amap.api.maps.overlay.PoiOverlay;
 import com.amap.api.services.core.LatLonPoint;
 import com.amap.api.services.core.PoiItem;
 import com.amap.api.services.poisearch.PoiResult;
 import com.amap.api.services.poisearch.PoiSearch;
 
-import java.util.ArrayList;
 import java.util.List;
+
+import overlay.PoiOverlay;
 
 public class MainActivity extends Activity implements PoiSearch.OnPoiSearchListener {
     private AMap aMap;
@@ -147,7 +145,7 @@ public class MainActivity extends Activity implements PoiSearch.OnPoiSearchListe
         return new LatLng(latLonPoint.getLatitude(), latLonPoint.getLongitude());
     }
 
-    public class ViewPoiOverlay extends PoiOverlay{
+    public class ViewPoiOverlay extends PoiOverlay {
 
         public ViewPoiOverlay(AMap aMap, List<PoiItem> list) {
             super(aMap, list);
