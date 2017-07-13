@@ -46,7 +46,7 @@ public class MainActivity extends Activity implements PoiSearch.OnPoiSearchListe
     private void doPOISearch() {
         PoiSearch.Query query = new PoiSearch.Query("公园","110101","北京");
         query.setPageSize(10);// 设置每页最多返回多少条poiitem
-        query.setPageNum(0);
+        query.setPageNum(1);
         query.requireSubPois(true);
         PoiSearch poiSearch = new PoiSearch(this,query);
         poiSearch.setOnPoiSearchListener(this);
